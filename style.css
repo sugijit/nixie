@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  position: relative;
+}
+
+.ads {
+  margin: auto;
+  width: 800px;
+  height: 90px;
+  background-color: aliceblue;
+}
+
+#clockcontainer {
+  width: 40%;
+  height: 50vh;
+
+  margin: auto;
+  margin-top: 200px;
+  display: flex;
+  position: relative;
+}
+
+#h1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#h1 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#h2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#h2 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.dot {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#m1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#m1 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#m2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#m2 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#s1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#s1 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#s2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#s2 img {
+  max-width: 100%;
+  max-height: 100%;
+}
