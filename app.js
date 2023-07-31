@@ -18,11 +18,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const minutes = currentTime.getMinutes();
     const seconds = currentTime.getSeconds();
 
-    h1Element.src = "/" + Math.floor(hours / 10) + ".png";
-    h2Element.src = "/" + (hours % 10) + ".png";
-    m1Element.src = "/" + Math.floor(minutes / 10) + ".png";
-    m2Element.src = "/" + (minutes % 10) + ".png";
-    s1Element.src = "/" + Math.floor(seconds / 10) + ".png";
-    s2Element.src = "/" + (seconds % 10) + ".png";
+    h1Element.src = "img/" + Math.floor(hours / 10) + ".png";
+    h2Element.src = "img/" + (hours % 10) + ".png";
+    m1Element.src = "img/" + Math.floor(minutes / 10) + ".png";
+    m2Element.src = "img/" + (minutes % 10) + ".png";
+    s1Element.src = "img/" + Math.floor(seconds / 10) + ".png";
+    s2Element.src = "img/" + (seconds % 10) + ".png";
   }
 });
